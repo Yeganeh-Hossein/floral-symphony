@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* تنظیم فونت‌ها */
+@import url('/fonts/index.css');
+
+/* استایل‌های عمومی */
+body {
+  @apply font-roboto text-gray-800 bg-gray-50;
+}
